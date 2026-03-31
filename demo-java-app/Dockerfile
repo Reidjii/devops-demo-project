@@ -1,5 +1,5 @@
 # Base image 
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin
 # setting artifact path
 ARG artifact=target/demo-java-app.jar
 
